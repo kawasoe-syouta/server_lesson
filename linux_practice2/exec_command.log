@@ -1,0 +1,300 @@
+66  cd /home/vagrant/server_lesson/linux_practice1/tmp/
+   67  rm *_bk.php
+   68  ls
+   69  cd /home/vagrant
+   70  rm server_lesson/first.txt
+   71  rm -r linux_practice3
+   72  ls server_lesson
+   73  cd /home/vagrant/server_lesson
+   74  echo '# サーバレッスン' > README.md
+   75  echo 'Linuxプラクティス' >> README.md
+   76  echo '-----------------' >> README.md
+   77  cat README.md
+   78  vi README.md
+   79  git add .
+   80  git log
+   81  git status
+   82  git add .
+   83  git status
+   84  git commit -m 'Linux1'
+   85  git add .
+   86  git status
+   87  git log
+   88  git push origin master
+   89  git log
+   90  git init
+   91  git clone https://github.com/kawasoe-syouta/server_lesson.git
+   92  git remote -v
+   93  git log
+   94  git add .
+   95  git status
+   96  git remote -v
+   97  git clone https://github.com/kawasoe-syouta/server_lesson.git
+   98  git push origin master
+   99  git add .
+  100  git commit -m 'firstcommit'
+  101  git log
+  102  git remote add origin https://github.com/kawasoe-syouta/server_lesson.git
+  103  git remote -v
+  104  git push origin master
+  105  git add .
+  106  git status
+  107  mkdir server_lesson/linux_practice2
+  108  git add.
+  109  git add .
+  110  git commit -m 'mkdir server_lesson/linux_practice2'
+  111  ?git push origin master
+  112  cd /home/vagrant
+  113  git add .
+  114  git push origin master
+  115  cd /home/vagrant/server_lesson
+  116  git status
+  117  git add .
+  118  git status
+  119  git log
+  120  ls
+  121  cd server_lesson
+  122  ls
+  123  cd /home/vagrant/server_lesson
+  124  ls
+  125  rm server_lesson/linux_practice2
+  126  ls
+  127  rm server_lesson
+  128  rm server_lesson/linux_practice2
+  129  ls
+  130  cd /vagrant
+  131  cd /home/vagrant
+  132  rm server_lesson/server_lesson
+  133  rm -r  server_lesson/server_lesson
+  134  ls
+  135  cd server_lesson
+  136  ls
+  137  mkdir -p server_lesson/linux_practice2/documents
+  138  ls
+  139  cd linux_practice2
+  140  ls
+  141  cd
+  142  cd /home/vargrant
+  143  cd /home/vagrant
+  144  ls
+  145  cd server_lesson
+  146  ls
+  147  rm -r server_lesson
+  148  ls
+  149  cd linux_practice2
+  150  mkdir documents 
+  151  ls
+  152  cd documents
+  153  touch gizumo{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50}.md
+  154  ls
+  155  cd -
+  156  mkdir trash
+  157  ls
+  158  cd trash
+  159  cd -
+  160  mv ./documents/gizumo{20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40}.md ./trash
+  161  ls
+  162  cd trash
+  163  ls
+  164  cd -
+  165  cd documents  
+  166  ls
+  167  cd -
+  168  touch .gitignore
+  169  ls
+  170  vi .gitignore
+  171  touch exec_command.log
+  172  history 300
+  173  vi exec_command.log
+  174  ls
+  175  ls -a
+  176  git add .
+  177  git status
+  178  vi .gitignore
+  179  git add .
+  180  git status
+  181  vi .gitignore
+  182  git add .
+  183  git status
+  184  vi .gitignore
+  185  git add .
+  186  git status
+  187  vi .gitignore
+  188  vi .gitignore
+  189  git add .
+  190  git status
+  191  git reset HEAD .
+  192  git add .
+  193  git status
+  194  git reset HEAD .
+  195  git status
+  196  git add .
+  197  git status
+  198  vi .gitignore
+  199  cd -
+  200  cd
+  201  ls
+  202  cd server_lesson
+  203  ls
+  204  cd linux_practice2
+  205  ls
+  206  ls -a
+  207  cd -
+  208  ccd -
+  209  cd -
+  210  ls
+  211  git status
+  212  ls 
+  213  cd linux_practice2
+  214  ls
+  215  vi .gitignore
+  216  git reset HEAD .
+  217  git add .
+  218  git status
+  219  vi .gitignore
+  220  git reset HEAD .
+  221  git add .
+  222  git status
+  223  git commit -m 'linux_practice2'
+  224  git push origin master
+  225  exit
+  226  sudo yum -y install httpd
+  227  httpd -v
+  228  sudo vi /etc/httpd/conf/httpd.conf
+  229  sudo systemctl start httpd
+  230  sudo vi /etc/httpd/conf/httpd.conf
+  231  sudo systemctl start httpd
+  232  sudo vi /etc/httpd/conf/httpd.conf
+  233  sudo systemctl start httpd
+  234  sudo vi /etc/httpd/conf/httpd.conf
+  235  sudo systemctl start httpd
+  236  sudo vi /etc/httpd/conf/httpd.conf
+  237  sudo systemctl start httpd
+  238  httpd -v
+  239  sudo systemctl status httpd
+  240  sudo vi /etc/httpd/conf/httpd.conf
+  241  ls
+  242  pwd
+  243  cd
+  244  pwd
+  245  cd ..
+  246  pwd
+  247  cd ..
+  248  pwd
+  249  ls
+  250  history
+  251  exit
+  252  sudo yum update -y
+  253  exit
+  254  ls
+  255  cd ..
+  256  ls
+  257  cd vagrant
+  258  ls
+  259  pwd
+  260  mkdir server_lesson && cd server_lesson
+  261  git init
+  262  touch first.txt
+  263  cd
+  264  cd /vadrant
+  265  cd /vagarnt
+  266  cd /
+  267  ls
+  268  cd vagrant
+  269  mkdir -p server_lesson/linux_practice/public
+  270  ls server_lesson server_lesson/linux_practice
+  271  cd /vagrant
+  272  touch server_lesson/linux_practice/public/index.php
+  273  ls server_lesson/linux_practice/public
+  274  cd /vagrant/server_lesson && ls
+  275  cd /vagrant/server_lesson/linux_practice/public
+  276  cp index.php index_bk.php
+  277  ls
+  278  cd /vagrant/server_lesson/linux_practice
+  279  cp -r public tmp
+  280  ls ./ public tmp
+  281  cd /vagrant
+  282  mv server_lesson/linux_practice server_lesson/linux_practice1
+  283   mkdir linux_practice2 linux_practice3
+  284  mv ./linux_practice2 ./server_lesson
+  285  cd /vagrant/server_lesson/linux_practice1/tmp/
+  286  rm *_bk.php
+  287  cd /vagrant
+  288  rm server_lesson/first.txt
+  289  rm -r linux_practice3
+  290  ls server_lesson
+  291  cd /vagrant/server_lesson
+  292  echo '# サーバレッスン' > README.md
+  293  echo 'Linuxプラクティス' >> README.md
+  294  echo '-----------------' >> README.md
+  295  cat README.md
+  296  cd /vagrant/server_lesson
+  297  vi README.md
+  298  git add .
+  299  git status
+  300  git commit -m 'linux_practice1'
+  301  git push origin master
+  302  git log
+  303  git pull origin https://github.com/kawasoe-syouta/server_lesson.git
+  304  git push origin master
+  305  git pull
+  306  git pull origin https://github.com/kawasoe-syouta/server_lesson.git
+  307  git push origin master
+  308  git add .
+  309  git status
+  310  git log
+  311  cd
+  312  cd /vagrant
+  313  git init
+  314  git pull origin https://github.com/kawasoe-syouta/server_lesson.git
+  315  git push origin master
+  316  git remote add origin https://github.com/kawasoe-syouta/server_lesson.git
+  317  git push origin master
+  318  git pull origin https://github.com/kawasoe-syouta/server_lesson
+  319  git remote add origin https://github.com/kawasoe-syouta/server_lesson.git
+  320  git push origin master
+  321  git init https://github.com/kawasoe-syouta/server_lesson.git
+  322  git add .
+  323  git status
+  324  git reset --soft HEAD^
+  325  cd /server_lesson
+  326  cd server_lesson
+  327  git init
+  328  git add .
+  329  git status
+  330  git log
+  331  git push origin master
+  332  git init
+  333  git status
+  334  git add .
+  335  git status
+  336  git log
+  337  git remote add origin https://github.com/kawasoe-syouta/server_lesson.git
+  338  git push origin master
+  339  mkdir server_lesson/linux_practice2/documents 
+  340  mkdir -p server_lesson/linux_practice2/documents
+  341  ls
+  342  rm -r server_lesson/server_lesson
+  343  rm server_lesson
+  344  rm -r server_lesson
+  345  ls
+  346  cd linux_practice2
+  347  mkdir documents
+  348  ls
+  349  cd documents
+  350  touch gizumo{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50}.md
+  351  ls
+  352  cd -
+  353  mkdir trash
+  354  ls
+  355  mv ./documents/gizumo{20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40}.md ./trash
+  356  ls
+  357  cd trash
+  358  ls
+  359  cd -
+  360  touch .gitignore
+  361  ls -a
+  362  cd .gitignore
+  363  vi .gitignore
+  364  touch exec_command.log
+  365  history 300
